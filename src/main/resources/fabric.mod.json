@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "call_wild",
+	"version": "${version}",
+	"name": "Call of the Wild",
+	"description": "This mod about nature!",
+	"authors": [
+		"ParterT"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/call_wild/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.partert.call_wild.CallOfTheWild"
+		],
+		"fabric-datagen": [
+			"net.partert.call_wild.CallOfTheWildDataGenerator"
+		],
+		"client": [
+			"net.partert.call_wild.CallOfTheWildClient"
+		]
+	},
+	"mixins": [
+		"call_wild.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
