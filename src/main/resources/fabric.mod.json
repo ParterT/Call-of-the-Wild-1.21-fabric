@@ -3,13 +3,13 @@
 	"id": "call_wild",
 	"version": "${version}",
 	"name": "Call of the Wild",
-	"description": "This mod about nature!",
+	"description": "This is a mod about nature!",
 	"authors": [
 		"ParterT"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://github.com/ParterT",
+		"sources": "https://github.com/ParterT/Call-of-the-Wild-1.21-fabric"
 	},
 	"license": "MIT",
 	"icon": "assets/call_wild/icon.png",
